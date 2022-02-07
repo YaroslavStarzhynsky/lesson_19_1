@@ -1,0 +1,22 @@
+*{
+margin:0;
+padding:0;
+}
+ul li{
+    list-style-type: none;
+}
+.images{
+    margin-left:5px;
+}
+.images > li{
+    display:inline;
+}
+.images > li:hover > img{
+    transform:scale(1.5);
+    z-index:10;
+}
+.images > li > img {
+    border:2px solid gray;
+    margin-left:-20px;
+    position:relative;
+}
